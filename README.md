@@ -2,6 +2,9 @@
 
 Original Page can be found [here](https://www.ghostnoteapp.com/?ref=landingfolio).
 
+![Screenshot 2021-02-02 at 23 24 51](https://user-images.githubusercontent.com/70595672/106670883-e8896c80-65ad-11eb-86ca-909a40f4ed60.png)
+
+
 ### `yarn start`
 
 Runs the app in the development mode.\
