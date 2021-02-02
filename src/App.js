@@ -8,6 +8,13 @@ import screen from './img/screen.png';
 import lifeHacker from './img/featured-01.png';
 import combinator from './img/featured-02.png';
 import productHunt from './img/featured-03.png';
+import Christopher from './img/Christopher.png';
+import Jason from './img/jason.png';
+import Matthew from './img/Matthew.jpg';
+import Tyler from './img/Tyler.jpg';
+import William from './img/William.jpg';
+import color from './img/color.png';
+import clipArt from './img/clipart.png';
 
 const navStyle = css`
   display: flex;
@@ -133,6 +140,231 @@ const asSeenProducts = css`
   height: 50px;
 `;
 
+const lineStyle = css`
+  width: 160px;
+  margin-top: 133px;
+  margin-bottom: 133px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    328deg,
+    rgba(29, 197, 255, 1) 0%,
+    rgba(16, 115, 255, 1) 100%
+  );
+`;
+
+const costumerReviewSection = css`
+  text-align: -webkit-center;
+
+  h3 {
+    margin: 0 auto;
+    font-size: 32px;
+    color: #f5f5f5;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 5px;
+  }
+
+  p {
+  }
+
+  img {
+    height: 80px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+`;
+
+const costumerReviewIntro = css`
+  font-size: 24px;
+  color: #868689;
+  font-weight: 250;
+  line-height: 35px;
+  width: 60%;
+  margin-top: 14px;
+`;
+
+const costumerReviews = css`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  text-align: -webkit-center;
+  margin-bottom: 100px;
+
+  div {
+    margin-top: 55px;
+    width: 31%;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #f5f5f5;
+    letter-spacing: 0.2px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 449;
+    font-size: 14px;
+    color: #00a2ff;
+  }
+`;
+
+const blank = css`
+  opacity: 0.1;
+`;
+
+const subscribe = css`
+  background-image: linear-gradient(
+    328deg,
+    rgba(29, 197, 255, 1) 0%,
+    rgba(16, 115, 255, 1) 100%
+  );
+  text-align: -webkit-center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+
+  h3 {
+    margin: 0 auto;
+    font-size: 32px;
+    color: #f5f5f5;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 24px;
+    color: white;
+    font-weight: 250;
+    line-height: 35px;
+    width: 60%;
+    margin-top: 14px;
+    width: 55%;
+  }
+
+  input {
+    box-sizing: border-box;
+    border-style: none;
+    padding-top: 13px;
+    padding-right: 430px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    text-rendering: auto;
+    cursor: text;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  button {
+    padding: 12px 20px;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: #1173ff;
+    border-radius: 30px;
+    color: white;
+  }
+`;
+const tryImges = css`
+  padding-top: 125px;
+  margin-bottom: 0px;
+`;
+const tryMe = css`
+  display: flex;
+  margin-bottom: -170px;
+  h3 {
+    margin: 0 auto;
+    font-size: 32px;
+    color: #f5f5f5;
+    font-weight: 600;
+    line-height: 70px;
+  }
+`;
+
+const tryMacBook = css`
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 390px;
+  width: 700px;
+  margin-bottom: 0px;
+`;
+const tryScreen = css`
+  height: 236px;
+  width: 380px;
+  position: relative;
+  top: -372px;
+  left: 185px;
+  margin-bottom: 0px;
+`;
+
+const tryText = css`
+  padding-top: 150px;
+  margin-left: -50px;
+  margin-bottom: 0px;
+
+  p {
+    font-size: 20px;
+    color: #868689;
+    font-weight: 250;
+    line-height: 35px;
+    margin-top: 14px;
+    width: 60%;
+  }
+`;
+
+const freeTrialBtn = css`
+  padding: 15px 15px 15px 15px;
+  border: 2px solid #00a2ff;
+  border-radius: 9px;
+  margin-top: 0px;
+  width: 34%;
+  margin-bottom: 0px;
+
+  a {
+    font-size: 18px;
+    color: #00a2ff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+`;
+
+const download = css`
+  position: relative;
+  height: 23px;
+  left: 200px;
+  top: -39px;
+  margin: 0;
+  padding: 0;
+`;
+
+const footer = css`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  border-top: 1px solid #333;
+  color: #50575b;
+  font-size: 14px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  img {
+    height: 20px;
+    margin: 0 40px;
+  }
+`;
+
+const clip = css`
+  z-index: 100;
+  position: fixed;
+  box-sizing: border-box;
+  right: 20px;
+  bottom: 20px;
+  height: 60px;
+`;
+
 function App() {
   return (
     <>
@@ -179,16 +411,16 @@ function App() {
             <img src={productHunt} alt="" />
           </div>
         </section>
-        <hr />
-        <section>
-          <h3> What our Users Say</h3>
-          <p>
+        <hr css={lineStyle} />
+        <section css={costumerReviewSection}>
+          <h3> What Our Users Say</h3>
+          <p css={costumerReviewIntro}>
             As always never just take our words for it. Instead ask some of the
             many happy users who are being more productive with Ghostnote 2.
           </p>
-          <div>
+          <div css={costumerReviews}>
             <div>
-              <img src="#1" alt="" />
+              <img src={Jason} alt="" />
               <p>
                 @GhostnoteApp has completely changed how I capture meeting notes
                 and track feedback on comps in Illustrator.
@@ -196,7 +428,7 @@ function App() {
               <a href="#1">jasoncarulli (@jasoncarulli)</a>
             </div>
             <div>
-              <img src="#1" alt="" />
+              <img src={William} alt="" />
               <p>
                 Hey! Super Pumped about the new Ghostnote App! I have had
                 Ghostnote on my Mac since you guys started. Also wanted to ask
@@ -207,7 +439,7 @@ function App() {
               <a href="#1">William WES Thompson (@WesThompson)</a>
             </div>
             <div>
-              <img src="#1" alt="" />
+              <img src={Tyler} alt="" />
               <p>
                 @GhostnoteApp Ghost Note is a note taking game changer. Once I
                 can view all my notes, it will be revolutionary with
@@ -216,7 +448,7 @@ function App() {
               <a href="#1">Tyler Zika (@tylerzika)</a>
             </div>
             <div>
-              <img src="#1" alt="" />
+              <img css={blank} src={color} alt="" />
               <p>
                 Just installed @GhostnoteApp - brilliant concept to have context
                 based note taking OS wide
@@ -224,7 +456,7 @@ function App() {
               <a href="#1">Peter Binderup (@pbinderup)</a>
             </div>
             <div>
-              <img src="#1" alt="" />
+              <img src={Christopher} alt="" />
               <p>
                 @GhostnoteApp Do you really need another note/todo app? You do
                 if you don't have @Ghostnoteapp an OS X Contextual App 4
@@ -233,7 +465,7 @@ function App() {
               <a href="#1">Christopher (@communicating)</a>
             </div>
             <div>
-              <img src="#1" alt="" />
+              <img src={Matthew} alt="" />
               <p>
                 Ok, I definitely don't need another notes app ... but
                 @ghostnoteapp looks like it's just what I've been missing:
@@ -243,7 +475,7 @@ function App() {
           </div>
         </section>
       </section>
-      <section>
+      <section css={subscribe}>
         <h3>Subscribe to Ghostnote News</h3>
         <p>
           A monthly newsletter with the latest. Get productivity tips and learn
@@ -254,25 +486,29 @@ function App() {
           <button>Subscribe</button>
         </div>
       </section>
-      <section>
-        <div>
-          <img src="#1" alt="" />
-          <img src="#1" alt="" />
+      <section css={tryMe}>
+        <div css={tryImges}>
+          <img css={tryMacBook} src={macBook} alt="" />
+          <img css={tryScreen} src={screen} alt="" />
         </div>
-        <div>
-          <h3>Try Ghotnote</h3>
+        <div css={tryText}>
+          <h3>Try Ghostnote</h3>
           <p>
             Join the thousands of others who are right now experiencing the
             power of contextual notes. 14 days free trial.
           </p>
-          <a href="#1">Download Free Trial</a>
+          <div css={freeTrialBtn}>
+            <a href="#1">Download Free Trial</a>
+          </div>
+          <img css={download} src={downloadBtn} alt="" />
         </div>
       </section>
-      <footer>
+      <footer css={footer}>
         <p>Privacy Policy | GDRP | Made in Brooklyn</p>
-        <img src="#1" alt="" />
+        <img src={logo} alt="" />
         <p>Copyright © 2015-2019 Ghostnote. All rights reserved.</p>
       </footer>
+      <img css={clip} src={clipArt} alt="" />
     </>
   );
 }
