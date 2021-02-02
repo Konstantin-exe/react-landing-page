@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+# Recreating a landing-page using React and [Emotion](https://emotion.sh/docs/introduction).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Original Page can be found [here](https://www.ghostnoteapp.com/?ref=landingfolio).
 
 ### `yarn start`
 
